@@ -1,7 +1,6 @@
 # Ignora la carpeta node_modules
 node_modules
 #ignora archivos temporales que se ocupan de forma local
-temp
 #ignora archivos package.json
 package-lock.json
 package.json
