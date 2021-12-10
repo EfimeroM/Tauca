@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=DM+Sans:wght@500;700&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -23,6 +23,22 @@ footer {
   display: flex;
   flex-direction: column; }
 
+/*nombres grid productos*/
+#uno {
+  background-color: red; }
+
+#gorras {
+  background-color: yellow; }
+
+#cinturones {
+  background-color: orange; }
+
+#medias {
+  background-color: blue; }
+
+#accesorios {
+  background-color: pink; }
+
 header #logo-tauca {
   position: absolute;
   left: 0;
@@ -35,46 +51,13 @@ header #logo-tauca {
 header nav ul {
   display: flex; }
   header nav ul li {
-    list-style: none;
-    padding: 10px 20px; }
+    list-style: none; }
     header nav ul li a {
       text-decoration: none;
-      color: black; }
-  header nav ul li:hover {
-    border-bottom: 1px solid #dadada; }
-
-#body {
-  background: url("../media/img/banners/index.jpg") no-repeat center top;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 110vh;
-  width: 100%; }
-  #body #container-comprar {
-    position: absolute;
-    right: 0;
-    top: 90vh; }
-    #body #container-comprar #comprar {
-      display: flex;
-      flex-direction: column;
-      width: 35vw;
-      align-items: center; }
-      #body #container-comprar #comprar h1 {
-        color: white;
-        font-size: 4vw;
-        font-family: 'DM Sans', sans-serif; }
-      #body #container-comprar #comprar input {
-        padding: 1vw 0;
-        margin-top: 2vw;
-        width: 50%;
-        border: none;
-        border-radius: 5px;
-        color: white;
-        background: #6f2281;
-        font-size: 1vw; }
-      #body #container-comprar #comprar input:hover {
-        cursor: pointer; }
+      color: black;
+      padding: 10px 20px; }
+    header nav ul li a:hover {
+      border-bottom: 1px solid #dadada; }
 
 footer {
   color: white;
@@ -82,3 +65,70 @@ footer {
   align-items: center;
   justify-content: center;
   line-height: 2vw; }
+
+#body-index {
+  background: url("../media/img/banners/index.jpg") no-repeat center top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 110vh;
+  width: 100%; }
+  #body-index #container-comprar {
+    position: absolute;
+    right: 0;
+    top: 90vh; }
+    #body-index #container-comprar #comprar {
+      display: flex;
+      flex-direction: column;
+      width: 35vw;
+      align-items: center; }
+      #body-index #container-comprar #comprar h1 {
+        color: white;
+        font-size: 4vw;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: bold; }
+      #body-index #container-comprar #comprar a {
+        text-decoration: none;
+        padding: 1vw 0;
+        margin-top: 2vw;
+        width: 40%;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: #6f2281;
+        font-size: 1vw;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: medium; }
+        #body-index #container-comprar #comprar a p {
+          text-align: center; }
+      #body-index #container-comprar #comprar a:hover {
+        cursor: pointer;
+        background: #833295; }
+
+#body-productos {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: stretch; }
+
+#uno {
+  flex-basis: 33.33%; }
+
+#second-column {
+  flex-basis: 33.33%;
+  display: flex;
+  flex-flow: column nowrap; }
+  #second-column #gorras {
+    flex-basis: 60%; }
+  #second-column #cinturones {
+    flex-basis: 40%; }
+
+#third-column {
+  flex-basis: 33.33%;
+  display: flex;
+  flex-flow: column nowrap; }
+  #third-column #medias {
+    flex-basis: 50%; }
+  #third-column #accesorios {
+    flex-basis: 50%; }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=DM+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=DM+Sans:wght@500;700&display=swap');
 $heigth-header: 20vh; //Header && logo
 $heigth-footer: 15vh; 
 *{
@@ -25,3 +25,9 @@ footer{
     display: flex;
     flex-direction: column;
 }
+/*nombres grid productos*/
+#uno{ background-color: red;}
+#gorras{background-color: yellow;}
+#cinturones{background-color: orange;}
+#medias{background-color: blue;}
+#accesorios{background-color: pink;}
