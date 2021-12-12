@@ -23,21 +23,11 @@ footer {
   display: flex;
   flex-direction: column; }
 
-/*nombres grid productos*/
-#uno {
-  background-color: red; }
-
-#gorras {
-  background-color: yellow; }
-
-#cinturones {
-  background-color: orange; }
-
-#medias {
-  background-color: blue; }
-
-#accesorios {
-  background-color: pink; }
+@keyframes opacityEff {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 header #logo-tauca {
   position: absolute;
@@ -56,12 +46,12 @@ header nav ul {
       text-decoration: none;
       color: black;
       padding: 10px 20px; }
-    header nav ul li a:hover {
-      border-bottom: 1px solid #dadada; }
+      header nav ul li a:hover {
+        border-bottom: 1px solid #dadada; }
 
 footer {
   color: white;
-  background-color: #1d1d1b;
+  background-color: #1D1D1B;
   align-items: center;
   justify-content: center;
   line-height: 2vw; }
@@ -96,39 +86,155 @@ footer {
         border: none;
         border-radius: 5px;
         color: white;
-        background: #6f2281;
+        background: #6F2281;
         font-size: 1vw;
         font-family: 'DM Sans', sans-serif;
         font-weight: medium; }
+        #body-index #container-comprar #comprar a:hover {
+          cursor: pointer;
+          background: #833295; }
         #body-index #container-comprar #comprar a p {
           text-align: center; }
-      #body-index #container-comprar #comprar a:hover {
-        cursor: pointer;
-        background: #833295; }
 
-#body-productos {
-  min-height: 100vh;
+#body-categories {
+  min-height: 130vh;
   display: flex;
   flex-flow: row nowrap;
-  align-items: stretch; }
-
-#uno {
-  flex-basis: 33.33%; }
-
-#second-column {
-  flex-basis: 33.33%;
-  display: flex;
-  flex-flow: column nowrap; }
-  #second-column #gorras {
-    flex-basis: 60%; }
-  #second-column #cinturones {
-    flex-basis: 40%; }
-
-#third-column {
-  flex-basis: 33.33%;
-  display: flex;
-  flex-flow: column nowrap; }
-  #third-column #medias {
-    flex-basis: 50%; }
-  #third-column #accesorios {
-    flex-basis: 50%; }
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: #1D1D1B; }
+  #body-categories #uno {
+    flex-basis: 33%;
+    background: url("../media/img/categories/uno.jpg") no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    #body-categories #uno:hover {
+      cursor: pointer; }
+      #body-categories #uno:hover #uno-text {
+        animation-duration: 0.5s;
+        animation-name: opacityEff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+    #body-categories #uno #uno-text {
+      background-color: #e20a116b;
+      display: none;
+      width: 100%;
+      height: 100%; }
+      #body-categories #uno #uno-text p {
+        text-align: center;
+        font-size: 5vw; }
+      #body-categories #uno #uno-text .letter-category {
+        font-size: 3vw; }
+  #body-categories #second-column {
+    flex-basis: 33%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between; }
+    #body-categories #second-column #gorras {
+      flex-basis: 59.6%;
+      background: url("../media/img/categories/gorras.jpg") no-repeat center top;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+      #body-categories #second-column #gorras:hover {
+        cursor: pointer; }
+        #body-categories #second-column #gorras:hover #gorras-text {
+          animation-duration: 0.5s;
+          animation-name: opacityEff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+      #body-categories #second-column #gorras #gorras-text {
+        background-color: #cce20a6b;
+        display: none;
+        width: 100%;
+        height: 100%; }
+        #body-categories #second-column #gorras #gorras-text p {
+          text-align: center;
+          font-size: 5vw; }
+        #body-categories #second-column #gorras #gorras-text .letter-category {
+          font-size: 3vw; }
+    #body-categories #second-column #cinturones {
+      flex-basis: 39.6%;
+      background: url("../media/img/categories/cinturones.jpg") no-repeat center top;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+      #body-categories #second-column #cinturones:hover {
+        cursor: pointer; }
+        #body-categories #second-column #cinturones:hover #cinturones-text {
+          animation-duration: 0.5s;
+          animation-name: opacityEff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+      #body-categories #second-column #cinturones #cinturones-text {
+        background-color: #e24e0a80;
+        display: none;
+        width: 100%;
+        height: 100%; }
+        #body-categories #second-column #cinturones #cinturones-text p {
+          text-align: center;
+          font-size: 5vw; }
+        #body-categories #second-column #cinturones #cinturones-text .letter-category {
+          font-size: 3vw; }
+  #body-categories #third-column {
+    flex-basis: 33%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between; }
+    #body-categories #third-column #medias {
+      flex-basis: 49.6%;
+      background: url("../media/img/categories/medias.jpg") no-repeat center top;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+      #body-categories #third-column #medias:hover {
+        cursor: pointer; }
+        #body-categories #third-column #medias:hover #medias-text {
+          animation-duration: 0.5s;
+          animation-name: opacityEff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+      #body-categories #third-column #medias #medias-text {
+        background-color: #0a20e26b;
+        display: none;
+        width: 100%;
+        height: 100%; }
+        #body-categories #third-column #medias #medias-text p {
+          text-align: center;
+          font-size: 5vw; }
+        #body-categories #third-column #medias #medias-text .letter-category {
+          font-size: 3vw; }
+    #body-categories #third-column #accesorios {
+      flex-basis: 49.6%;
+      background: url("../media/img/categories/accesorios.jpg") no-repeat center top;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover; }
+      #body-categories #third-column #accesorios:hover {
+        cursor: pointer; }
+        #body-categories #third-column #accesorios:hover #accesorios-text {
+          animation-duration: 0.5s;
+          animation-name: opacityEff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center; }
+      #body-categories #third-column #accesorios #accesorios-text {
+        background-color: #b70ae26b;
+        display: none;
+        width: 100%;
+        height: 100%; }
+        #body-categories #third-column #accesorios #accesorios-text p {
+          text-align: center;
+          font-size: 5vw; }
+        #body-categories #third-column #accesorios #accesorios-text .letter-category {
+          font-size: 3vw; }

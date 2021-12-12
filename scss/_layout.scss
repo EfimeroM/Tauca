@@ -18,9 +18,9 @@ header{
                     text-decoration: none;
                     color: black;
                     padding: 10px 20px;
-                }
-                a:hover{
-                    border-bottom: 1px solid rgb(218, 218, 218);
+                    &:hover{
+                        border-bottom: 1px solid rgb(218, 218, 218);
+                    }
                 }
             }
         }
@@ -28,17 +28,14 @@ header{
 }
 footer{
     color: white;
-    background-color: #1d1d1b;
+    background-color: $blackTauca;
     align-items: center;
     justify-content: center;
     line-height : 2vw;
 }
 #body-index{
     background: url('../media/img/banners/index.jpg') no-repeat center top;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    @include bgcover;
     min-height:110vh;
     width: 100%;
     #container-comprar{
@@ -64,50 +61,113 @@ footer{
                 border:none;
                 border-radius: 5px;
                 color: white;
-                background: #6f2281;
+                background: $purpleTauca;
                 font-size: 1vw;
                 font-family: 'DM Sans', sans-serif;
                 font-weight: medium;
+                &:hover{
+                    cursor: pointer;
+                    background: #833295;
+                }
                 p{
                     text-align: center;
                 }
             }
-            a:hover{
-                cursor: pointer;
-                background: #833295;
-            }
         }
     }
 }
-
-#body-productos{
-    min-height: 100vh;
+#body-categories{
+    min-height: 130vh;
     display: flex;
     flex-flow: row nowrap;
     align-items: stretch;
-}
-#uno{
-    flex-basis: 33.33%;
-}
-#second-column{
-    flex-basis: 33.33%;
-    display: flex;
-    flex-flow: column nowrap;
-    #gorras{
-        flex-basis: 60%;
+    justify-content: space-between;
+    background-color: $blackTauca;
+    #uno{
+        flex-basis: 33%;
+        background: url('../media/img/categories/uno.jpg') no-repeat center top;
+        @include bgcover;
+        &:hover{
+            cursor: pointer;
+            #uno-text{
+                @include effectOpacity;
+            }
+        }
+        #uno-text{
+            background-color: #e20a116b;
+            @include displayCategories;
+        }
     }
-    #cinturones{
-        flex-basis: 40%;
+    #second-column{
+        flex-basis: 33%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        #gorras{
+            flex-basis: 59.6%;
+            background: url('../media/img/categories/gorras.jpg') no-repeat center top;
+            @include bgcover;
+            &:hover{
+                cursor: pointer;
+                #gorras-text{
+                    @include effectOpacity;
+                }
+            }
+            #gorras-text{
+                background-color: #cce20a6b;
+                @include displayCategories;
+            }
+        }
+        #cinturones{
+            flex-basis: 39.6%;
+            background: url('../media/img/categories/cinturones.jpg') no-repeat center top;
+            @include bgcover;
+            &:hover{
+                cursor: pointer;
+                #cinturones-text{
+                    @include effectOpacity;
+                }
+            }
+            #cinturones-text{
+                background-color: #e24e0a80;
+                @include displayCategories;
+            }
+        }
     }
-}
-#third-column{
-    flex-basis: 33.33%;
-    display: flex;
-    flex-flow: column nowrap;
-    #medias{
-        flex-basis: 50%;
-    }
-    #accesorios{
-        flex-basis: 50%;
+    #third-column{
+        flex-basis: 33%;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        #medias{
+            flex-basis: 49.6%;
+            background: url('../media/img/categories/medias.jpg') no-repeat center top;
+            @include bgcover;
+            &:hover{
+                cursor: pointer;
+                #medias-text{
+                    @include effectOpacity;
+                }
+            }
+            #medias-text{
+                background-color: #0a20e26b;
+                @include displayCategories;
+            }
+        }
+        #accesorios{
+            flex-basis: 49.6%;
+            background: url('../media/img/categories/accesorios.jpg') no-repeat center top;
+            @include bgcover;
+            &:hover{
+                cursor: pointer;
+                #accesorios-text{
+                    @include effectOpacity;
+                }
+            }
+            #accesorios-text{
+                background-color: #b70ae26b;
+                @include displayCategories;
+            }
+        }
     }
 }
