@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Categorias Tauca, web de accesorios moda sin género">
+    <link rel = "stylesheet" href = "../css/main.css">
+    <title>Categorias Tauca</title>
+</head>
+<body>
+    <header>
+        <a id="logo-tauca" href="../index.html"><img src="../media/icons/tauca/logo-light.jpg" alt="icono logo light tauca"></a>
+        <nav>
+            <ul>
+                <li><a href="categorias.html">Productos</a></li>
+                <li><a href="">Preguntas frecuentes</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Sobre nosotras</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="body-categories">
+        <div id="uno" onclick="redirect('uno')"><div id="uno-text"><p>Cinturones</p><p class="letter-category">Belts</p></div></div>
+        <div id="second-column">
+            <div id="gorras" onclick="redirect('gorras')"><div id="gorras-text"><p>Gorras</p><p class="letter-category">Caps</p></div></div>
+            <div id="cinturones" onclick="redirect('cinturones')"><div id="cinturones-text"><p>Cinturones</p><p class="letter-category">Belts</p></div></div>
+        </div>
+        <div id="third-column">
+            <div id="medias" onclick="redirect('medias')"><div id="medias-text"><p>Medias</p><p class="letter-category">Socks</p></div></div>
+            <div id="accesorios" onclick="redirect('accesorios')"><div id="accesorios-text"><p>Accesorios</p><p class="letter-category">Accesories</p></div></div>
+        </div>
+    </div>
+    <footer>
+        <h4>TAUCA</h4>
+        <h5>Palermo, CABA | Pto. Madryn, CHUBUT</h5>
+        <h5>Celular: +541153264616</h5>
+    </footer>
+    <script src = "../js/utilities.js"></script>
+</body>
+</html>

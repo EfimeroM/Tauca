@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=DM+Sans:wght@500;700&display=swap');
 $heigth-header: 20vh; //Header && logo
-$heigth-footer: 15vh; 
+$heigth-footer: 15vh;
+//colores Tauca
+$blackTauca: #1D1D1B; 
+$purpleTauca: #6F2281; 
+$blueTauca: #3157A3; 
+$greenTauca: #088036; 
+$redTauca: #E20A13; 
+$orangeTauca: #F18918; 
+$yellowTauca: #FCEA18; 
 *{
     padding: 0;
     margin: 0;
@@ -25,9 +33,12 @@ footer{
     display: flex;
     flex-direction: column;
 }
-/*nombres grid productos*/
-#uno{ background-color: red;}
-#gorras{background-color: yellow;}
-#cinturones{background-color: orange;}
-#medias{background-color: blue;}
-#accesorios{background-color: pink;}
+//
+@mixin bgcover {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
