@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=DM+Sans:wght@500;700&display=swap');
 $heigth-header: 20vh; //Header && logo
 $heigth-footer: 15vh;
@@ -9,6 +10,8 @@ $greenTauca: #088036;
 $redTauca: #E20A13; 
 $orangeTauca: #F18918; 
 $yellowTauca: #FCEA18; 
+=======
+>>>>>>> Stashed changes
 *{
     padding: 0;
     margin: 0;
@@ -24,6 +27,7 @@ body{
 header{
     display: flex;
     width: 100%;
+<<<<<<< Updated upstream
     height: $heigth-header;
     align-items: center;
     justify-content: center;
@@ -42,3 +46,9 @@ footer{
 }
 
 
+=======
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+>>>>>>> Stashed changes

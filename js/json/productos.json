@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "nameEs": "Cinturones",
+        "name": "Belts"
+    },
+    {
+        "id": 2,
+        "nameEs": "Gorras",
+        "name": "Caps"
+    },
+    {
+        "id": 3,
+        "nameEs": "Cinturones",
+        "name": "Belts"
+    },
+    {
+        "id": 4,
+        "nameEs": "Medias",
+        "name": "Socks"
+    },
+    {
+        "id": 5,
+        "nameEs": "Accesorios",
+        "name": "Accesories"
+    }
+]
