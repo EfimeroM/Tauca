@@ -1,0 +1,28 @@
+@keyframes opacityEff{
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+//background & letter categories
+@mixin effectOpacity{
+    animation-duration: 0.5s;
+    animation-name: opacityEff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@mixin displayCategories {
+    display: none;
+    width: 100%;
+    height: 100%;
+    p{
+      text-align: center;
+      font-size: 5vw;
+    }
+    .letter-category{
+      font-size: 3vw;                
+    }
+}
