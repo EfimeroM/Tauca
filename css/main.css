@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=DM+Sans:wght@500;700&display=swap");
-=======
->>>>>>> Stashed changes
 * {
   padding: 0;
   margin: 0;
@@ -17,7 +14,6 @@ body {
 header {
   display: flex;
   width: 100%;
-<<<<<<< Updated upstream
   height: 20vh;
   align-items: center;
   justify-content: center; }
@@ -33,30 +29,18 @@ footer {
   to {
     opacity: 1; } }
 
-=======
-  height: 15vh;
-  align-items: center;
-  justify-content: center; }
-
->>>>>>> Stashed changes
 header #logo-tauca {
   position: absolute;
   left: 0;
   top: 0;
   padding-left: 30px; }
   header #logo-tauca img {
-<<<<<<< Updated upstream
     width: 20vh;
     height: 20vh; }
-=======
-    width: 120px;
-    height: 15vh; }
->>>>>>> Stashed changes
 
 header nav ul {
   display: flex; }
   header nav ul li {
-<<<<<<< Updated upstream
     list-style: none; }
     header nav ul li a {
       text-decoration: none;
@@ -254,28 +238,3 @@ footer {
           font-size: 5vw; }
         #body-categories #third-column #accesorios #accesorios-text .letter-category {
           font-size: 3vw; }
-=======
-    list-style: none;
-    padding: 10px 20px; }
-    header nav ul li a {
-      text-decoration: none;
-      color: black; }
-  header nav ul li:hover {
-    border-bottom: 1px solid #dadada; }
-
-#body {
-  background-image: url("../media/img/banners/index.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100vh;
-  width: 100%; }
-
-footer {
-  color: white;
-  background-color: #1b1b1b;
-  height: 15vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
->>>>>>> Stashed changes

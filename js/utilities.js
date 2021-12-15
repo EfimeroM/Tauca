@@ -1,4 +1,3 @@
-const redirect = (category) =>{
-    sessionStorage.setItem('category', category)
-    location.href="../secciones/productos.html";
+const redirect = (url) =>{
+    location.href="../secciones/categorias/"+url+".html";
 }
