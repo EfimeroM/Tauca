@@ -1,0 +1,500 @@
+[
+    {
+        "id": 1,
+        "name": "Gorra bad hair",
+        "price": 1000,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/gorra-bad-hair.jpg",
+            "2": "../media/img/products/gorras/gorra-bad-hair2.jpg"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 2,
+        "name": "Gorra bajonera",
+        "price": 1600,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/gorra-bajonera.jpg"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 3,
+        "name": "Gorra boom",
+        "price": 1600,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/gorra-boom.jpg"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 4,
+        "name": "Gorra buu",
+        "price": 1600,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/gorra-buu.jpg"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 5,
+        "name": "Gorra lisa",
+        "price": 1100,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/gorra-lisa-amarilla.jpg",
+            "2": "../media/img/products/gorras/gorra-lisa-azul.jpg",
+            "3": "../media/img/products/gorras/gorra-lisa-bordo.jpg"
+        },
+        "color":{
+            "1": "amarillo",
+            "2": "azul",
+            "3": "bordo"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 6,
+        "name": "Gorra paltuki",
+        "price": 1600,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/gorra-paltuki.jpg"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 7,
+        "name": "Gorra tateti",
+        "price": 1000,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/gorra-tateti-verde.jpg",
+            "2": "../media/img/products/gorras/gorra-tateti-crema.jpg"
+        },
+        "color":{
+            "1": "verde",
+            "2": "crema"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 8,
+        "name": "Gorra veggie",
+        "price": 1600,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/gorra-veggie.jpg"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 9,
+        "name": "Gorra youth",
+        "price": 1000,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/gorra-youth.jpg",
+            "2": "../media/img/products/gorras/gorra-youth2.jpg"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 10,
+        "name": "Gorro kiki",
+        "price": 650,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/gorro-kiki-cyan.jpg",
+            "2": "../media/img/products/gorras/gorro-kiki-pink.jpg",
+            "3": "../media/img/products/gorras/gorro-kiki-bordo.jpg",
+            "4": "../media/img/products/gorras/gorro-kiki-blue.jpg",
+            "5": "../media/img/products/gorras/gorro-kiki-black.jpg",
+            "6": "../media/img/products/gorras/gorro-kiki-purple.jpg"
+        },
+        "color":{
+            "1": "cyan",
+            "2": "pink",
+            "3": "bordo",
+            "4": "blue",
+            "5": "black",
+            "6": "purple"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 11,
+        "name": "Piluso argollas",
+        "price": 1000,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/piluso-argollas-white.jpg",
+            "2": "../media/img/products/gorras/piluso-argollas-black.jpg"
+        },
+        "color":{
+            "1": "white",
+            "2": "black"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 12,
+        "name": "Piluso cactus",
+        "price": 1000,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/piluso-cactus.jpg"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 13,
+        "name": "Piluso lisa",
+        "price": 1000,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/piluso-lisa-blue.jpg",
+            "2": "../media/img/products/gorras/piluso-lisa-brown.jpg",
+            "3": "../media/img/products/gorras/piluso-lisa-black.jpg"
+        },
+        "color":{
+            "1": "blue",
+            "2": "brown",
+            "3": "black"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 14,
+        "name": "Piluso margaret",
+        "price": 1000,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/piluso-margaret-white.jpg",
+            "2": "../media/img/products/gorras/piluso-margaret-black.jpg"
+        },
+        "color":{
+            "1": "white",
+            "2": "black"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 15,
+        "name": "Piluso rose",
+        "price": 1000,
+        "thumbnail":{
+            "1": "../media/img/products/gorras/piluso-rose.jpg"
+        },
+        "category": "Gorras"
+    },
+    {
+        "id": 16,
+        "name": "Aros eye",
+        "price": 300,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/aros-eye.jpg",
+            "2": "../media/img/products/accesorios/aros-eye2.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 17,
+        "name": "Aros flama",
+        "price": 300,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/aros-flama-red.jpg",
+            "2": "../media/img/products/accesorios/aros-flama-purple.jpg",
+            "3": "../media/img/products/accesorios/aros-flama-blue.jpg"
+        },
+        "color":{
+            "1": "red",
+            "2": "blue",
+            "3": "purple"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 18,
+        "name": "Aros happy",
+        "price": 300,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/aros-happy.jpg",
+            "2": "../media/img/products/accesorios/aros-happy2.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 19,
+        "name": "Aros mua",
+        "price": 300,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/aros-mua-cyan.jpg",
+            "2": "../media/img/products/accesorios/aros-mua-cyan2.jpg",
+            "3": "../media/img/products/accesorios/aros-mua-red.jpg",
+            "4": "../media/img/products/accesorios/aros-mua-red2.jpg"
+        },
+        "color":{
+            "1": "cyan",
+            "2": "red"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 20,
+        "name": "Aros pou",
+        "price": 300,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/aros-pou.jpg",
+            "2": "../media/img/products/accesorios/aros-pou2.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 21,
+        "name": "Aros ray",
+        "price": 300,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/aros-ray.jpg",
+            "2": "../media/img/products/accesorios/aros-ray2.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 22,
+        "name": "Aros vibora",
+        "price": 300,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/aros-vibora-purple.jpg",
+            "2": "../media/img/products/accesorios/aros-vibora-purple2.jpg",
+            "3": "../media/img/products/accesorios/aros-vibora-cyan.jpg",
+            "4": "../media/img/products/accesorios/aros-vibora-green.jpg",
+            "5": "../media/img/products/accesorios/aros-vibora-yellow.jpg"
+        },
+        "color":{
+            "1": "purple",
+            "2": "cyan",
+            "3": "green",
+            "4": "yellow"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 23,
+        "name": "Correa jamsa",
+        "price": 450,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/correa-jamsa.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 24,
+        "name": "Correa rayos",
+        "price": 900,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/correa-rayos.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 25,
+        "name": "LLavero bi",
+        "price": 450,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/llavero-bi.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 26,
+        "name": "LLavero cobra",
+        "price": 450,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/llavero-cobra.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 27,
+        "name": "LLavero duo pasión",
+        "price": 450,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/llavero-duo-pasion.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 28,
+        "name": "LLavero jamsa",
+        "price": 450,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/llavero-jamsa.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 29,
+        "name": "LLavero limón",
+        "price": 450,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/llavero-limon.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 30,
+        "name": "LLavero pasión(ecocuero)",
+        "price": 450,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/llavero-pasion.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 31,
+        "name": "LLavero pri",
+        "price": 450,
+        "thumbnail":{
+            "1": "../media/img/products/accesorios/llavero-pri.jpg"
+        },
+        "category": "Accesorios"
+    },
+    {
+        "id": 32,
+        "name": "Cinto amelie",
+        "price": 600,
+        "thumbnail":{
+            "1": "../media/img/products/cinturones/cinto-amelie.jpg"
+        },
+        "category": "Cinturones"
+    },
+    {
+        "id": 33,
+        "name": "Cinto cargo",
+        "price": 450,
+        "thumbnail":{
+            "1": "../media/img/products/cinturones/cinto-cargo.jpg",
+            "2": "../media/img/products/cinturones/cinto-cargo2.jpg"
+        },
+        "category": "Cinturones"
+    },
+    {
+        "id": 34,
+        "name": "Cinto charol croco",
+        "price": 600,
+        "thumbnail":{
+            "1": "../media/img/products/cinturones/cinto-charol-croco.jpg"
+        },
+        "category": "Cinturones"
+    },
+    {
+        "id": 35,
+        "name": "Cinto dual",
+        "price": 600,
+        "thumbnail":{
+            "1": "../media/img/products/cinturones/cinto-dual.jpg"
+        },
+        "category": "Cinturones"
+    },
+    {
+        "id": 36,
+        "name": "Cinto flech",
+        "price": 600,
+        "thumbnail":{
+            "1": "../media/img/products/cinturones/cinto-flech.jpg"
+        },
+        "category": "Cinturones"
+    },
+    {
+        "id": 37,
+        "name": "Cinto GG",
+        "price": 600,
+        "thumbnail":{
+            "1": "../media/img/products/cinturones/cinto-gg.jpg"
+        },
+        "category": "Cinturones"
+    },
+    {
+        "id": 38,
+        "name": "Cinto OO",
+        "price": 600,
+        "thumbnail":{
+            "1": "../media/img/products/cinturones/cinto-oo.jpg"
+        },
+        "category": "Cinturones"
+    },
+    {
+        "id": 39,
+        "name": "Cinto poly",
+        "price": 600,
+        "thumbnail":{
+            "1": "../media/img/products/cinturones/cinto-poly.jpg"
+        },
+        "category": "Cinturones"
+    },
+    {
+        "id": 40,
+        "name": "Cinto reyna",
+        "price": 600,
+        "thumbnail":{
+            "1": "../media/img/products/cinturones/cinto-reyna.jpg"
+        },
+        "category": "Cinturones"
+    },
+    {
+        "id": 41,
+        "name": "Bandolera ever",
+        "price": 2500,
+        "thumbnail":{
+            "1": "../media/img/products/marroquineria/bandolera-ever.jpg"
+        },
+        "category": "Marroquineria"
+    },
+    {
+        "id": 42,
+        "name": "Bandolera last",
+        "price": 2500,
+        "thumbnail":{
+            "1": "../media/img/products/marroquineria/bandolera-last.jpg"
+        },
+        "category": "Marroquineria"
+    },
+    {
+        "id": 43,
+        "name": "Phonebag warning",
+        "price": 1900,
+        "thumbnail":{
+            "1": "../media/img/products/marroquineria/phonebag-warning.jpg"
+        },
+        "category": "Marroquineria"
+    },
+    {
+        "id": 44,
+        "name": "Riñonera croco",
+        "price": 1400,
+        "thumbnail":{
+            "1": "../media/img/products/marroquineria/riñonera-croco.jpg"
+        },
+        "category": "Marroquineria"
+    },
+    {
+        "id": 45,
+        "name": "Riñonera everlast",
+        "price": 2300,
+        "thumbnail":{
+            "1": "../media/img/products/marroquineria/riñonera-everlast.jpg",
+            "2": "../media/img/products/marroquineria/riñonera-everlast2.jpg",
+            "3": "../media/img/products/marroquineria/riñonera-everlast3.jpg"
+        },
+        "category": "Marroquineria"
+    },
+    {
+        "id": 46,
+        "name": "Riñonera Tauca",
+        "price": 2500,
+        "thumbnail":{
+            "1": "../media/img/products/marroquineria/riñonera-tauca.jpg"
+        },
+        "category": "Marroquineria"
+    },
+    {
+        "id": 47,
+        "name": "Medias Tauca",
+        "price": 300,
+        "thumbnail":{
+            "1": "../media/img/products/medias/medias-tauca.jpg"
+        },
+        "category": "Medias"
+    }
+]
