@@ -103,30 +103,30 @@ footer {
   align-items: stretch;
   justify-content: space-between;
   background-color: #1D1D1B; }
-  #body-categories #uno {
+  #body-categories #marroquineria {
     flex-basis: 33%;
     background: url("../media/img/categories/uno.jpg") no-repeat center top;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover; }
-    #body-categories #uno:hover {
+    #body-categories #marroquineria:hover {
       cursor: pointer; }
-      #body-categories #uno:hover #uno-text {
+      #body-categories #marroquineria:hover #marroquineria-text {
         animation-duration: 0.5s;
         animation-name: opacityEff;
         display: flex;
         flex-direction: column;
         justify-content: center; }
-    #body-categories #uno #uno-text {
+    #body-categories #marroquineria #marroquineria-text {
       background-color: #e20a116b;
       display: none;
       width: 100%;
       height: 100%; }
-      #body-categories #uno #uno-text p {
+      #body-categories #marroquineria #marroquineria-text p {
         text-align: center;
-        font-size: 5vw; }
-      #body-categories #uno #uno-text .letter-category {
+        font-size: 4vw; }
+      #body-categories #marroquineria #marroquineria-text .letter-category {
         font-size: 3vw; }
   #body-categories #second-column {
     flex-basis: 33%;
@@ -238,3 +238,41 @@ footer {
           font-size: 5vw; }
         #body-categories #third-column #accesorios #accesorios-text .letter-category {
           font-size: 3vw; }
+
+#body-products {
+  padding-top: 8vh;
+  background-color: #1D1D1B; }
+  #body-products #banner-category {
+    height: 37vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    #body-products #banner-category p {
+      font-weight: lighter;
+      font-size: 10vh;
+      padding: 1vh 3vw; }
+    #body-products #banner-category #en {
+      font-size: 7vh; }
+  #body-products #box-products {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10vh 5vw; }
+    #body-products #box-products .product {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 26%;
+      margin: 8vh 3vw 0 3vw; }
+      #body-products #box-products .product img {
+        width: 100%; }
+      #body-products #box-products .product p {
+        color: white;
+        padding: 10px 20px;
+        text-align: center; }
+      #body-products #box-products .product:hover {
+        border: 1px solid white;
+        cursor: pointer; }
