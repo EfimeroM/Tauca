@@ -42,13 +42,14 @@
         "price": 1100,
         "thumbnail":{
             "1": "../media/img/products/gorras/gorra-lisa-amarilla.jpg",
-            "2": "../media/img/products/gorras/gorra-lisa-azul.jpg",
-            "3": "../media/img/products/gorras/gorra-lisa-bordo.jpg"
+            "amarillo": "../media/img/products/gorras/gorra-lisa-amarilla.jpg",
+            "azul": "../media/img/products/gorras/gorra-lisa-azul.jpg",
+            "bordo": "../media/img/products/gorras/gorra-lisa-bordo.jpg"
         },
         "color":{
-            "1": "amarillo",
-            "2": "azul",
-            "3": "bordo"
+            "#e6d413": "amarillo",
+            "#264b94": "azul",
+            "#571c24": "bordo"
         },
         "category": "Gorras"
     },
@@ -67,11 +68,12 @@
         "price": 1000,
         "thumbnail":{
             "1": "../media/img/products/gorras/gorra-tateti-verde.jpg",
-            "2": "../media/img/products/gorras/gorra-tateti-crema.jpg"
+            "verde": "../media/img/products/gorras/gorra-tateti-verde.jpg",
+            "crema": "../media/img/products/gorras/gorra-tateti-crema.jpg"
         },
         "color":{
-            "1": "verde",
-            "2": "crema"
+            "#067531": "verde",
+            "#E2CAAE": "crema"
         },
         "category": "Gorras"
     },
@@ -100,19 +102,20 @@
         "price": 650,
         "thumbnail":{
             "1": "../media/img/products/gorras/gorro-kiki-cyan.jpg",
-            "2": "../media/img/products/gorras/gorro-kiki-pink.jpg",
-            "3": "../media/img/products/gorras/gorro-kiki-bordo.jpg",
-            "4": "../media/img/products/gorras/gorro-kiki-blue.jpg",
-            "5": "../media/img/products/gorras/gorro-kiki-black.jpg",
-            "6": "../media/img/products/gorras/gorro-kiki-purple.jpg"
+            "cyan": "../media/img/products/gorras/gorro-kiki-cyan.jpg",
+            "rosa": "../media/img/products/gorras/gorro-kiki-pink.jpg",
+            "bordo": "../media/img/products/gorras/gorro-kiki-bordo.jpg",
+            "azul": "../media/img/products/gorras/gorro-kiki-blue.jpg",
+            "negro": "../media/img/products/gorras/gorro-kiki-black.jpg",
+            "violeta": "../media/img/products/gorras/gorro-kiki-purple.jpg"
         },
         "color":{
-            "1": "cyan",
-            "2": "pink",
-            "3": "bordo",
-            "4": "blue",
-            "5": "black",
-            "6": "purple"
+            "#0bbdbd": "cyan",
+            "#e2a8b2": "rosa",
+            "#571c24": "bordo",
+            "#264b94": "azul",
+            "#1a1a1a": "negro",
+            "#582e58": "violeta"
         },
         "category": "Gorras"
     },
@@ -122,11 +125,12 @@
         "price": 1000,
         "thumbnail":{
             "1": "../media/img/products/gorras/piluso-argollas-white.jpg",
-            "2": "../media/img/products/gorras/piluso-argollas-black.jpg"
+            "blanco": "../media/img/products/gorras/piluso-argollas-white.jpg",
+            "negro": "../media/img/products/gorras/piluso-argollas-black.jpg"
         },
         "color":{
-            "1": "white",
-            "2": "black"
+            "#FFFFFF": "blanco",
+            "#1a1a1a": "negro"
         },
         "category": "Gorras"
     },
@@ -145,13 +149,14 @@
         "price": 1000,
         "thumbnail":{
             "1": "../media/img/products/gorras/piluso-lisa-blue.jpg",
-            "2": "../media/img/products/gorras/piluso-lisa-brown.jpg",
-            "3": "../media/img/products/gorras/piluso-lisa-black.jpg"
+            "azul": "../media/img/products/gorras/piluso-lisa-blue.jpg",
+            "marron": "../media/img/products/gorras/piluso-lisa-brown.jpg",
+            "negro": "../media/img/products/gorras/piluso-lisa-black.jpg"
         },
         "color":{
-            "1": "blue",
-            "2": "brown",
-            "3": "black"
+            "#264b94": "azul",
+            "#866948": "marron",
+            "#1a1a1a": "negro"
         },
         "category": "Gorras"
     },
@@ -160,12 +165,13 @@
         "name": "Piluso margaret",
         "price": 1000,
         "thumbnail":{
-            "1": "../media/img/products/gorras/piluso-margaret-white.jpg",
-            "2": "../media/img/products/gorras/piluso-margaret-black.jpg"
+            "1": "../media/img/products/gorras/piluso-margaret-crema.jpg",
+            "crema": "../media/img/products/gorras/piluso-margaret-crema.jpg",
+            "negro": "../media/img/products/gorras/piluso-margaret-black.jpg"
         },
         "color":{
-            "1": "white",
-            "2": "black"
+            "#E2CAAE": "crema",
+            "#1a1a1a": "negro"
         },
         "category": "Gorras"
     },
@@ -194,13 +200,14 @@
         "price": 300,
         "thumbnail":{
             "1": "../media/img/products/accesorios/aros-flama-red.jpg",
-            "2": "../media/img/products/accesorios/aros-flama-purple.jpg",
-            "3": "../media/img/products/accesorios/aros-flama-blue.jpg"
+            "rojo": "../media/img/products/accesorios/aros-flama-red.jpg",
+            "violeta": "../media/img/products/accesorios/aros-flama-purple.jpg",
+            "azul": "../media/img/products/accesorios/aros-flama-blue.jpg"
         },
         "color":{
-            "1": "red",
-            "2": "blue",
-            "3": "purple"
+            "#cf151b": "rojo",
+            "#582e58": "violeta",
+            "#264b94": "azul"
         },
         "category": "Accesorios"
     },
@@ -221,12 +228,13 @@
         "thumbnail":{
             "1": "../media/img/products/accesorios/aros-mua-cyan.jpg",
             "2": "../media/img/products/accesorios/aros-mua-cyan2.jpg",
-            "3": "../media/img/products/accesorios/aros-mua-red.jpg",
+            "cyan": "../media/img/products/accesorios/aros-mua-cyan.jpg",
+            "rojo": "../media/img/products/accesorios/aros-mua-red.jpg",
             "4": "../media/img/products/accesorios/aros-mua-red2.jpg"
         },
         "color":{
-            "1": "cyan",
-            "2": "red"
+            "#0bbdbd": "cyan",
+            "#cf151b": "rojo"
         },
         "category": "Accesorios"
     },
@@ -257,15 +265,16 @@
         "thumbnail":{
             "1": "../media/img/products/accesorios/aros-vibora-purple.jpg",
             "2": "../media/img/products/accesorios/aros-vibora-purple2.jpg",
-            "3": "../media/img/products/accesorios/aros-vibora-cyan.jpg",
-            "4": "../media/img/products/accesorios/aros-vibora-green.jpg",
-            "5": "../media/img/products/accesorios/aros-vibora-yellow.jpg"
+            "violeta": "../media/img/products/accesorios/aros-vibora-purple.jpg",
+            "cyan": "../media/img/products/accesorios/aros-vibora-cyan.jpg",
+            "verde": "../media/img/products/accesorios/aros-vibora-green.jpg",
+            "amarillo": "../media/img/products/accesorios/aros-vibora-yellow.jpg"
         },
         "color":{
-            "1": "purple",
-            "2": "cyan",
-            "3": "green",
-            "4": "yellow"
+            "#582e58": "violeta",
+            "#0bbdbd": "cyan",
+            "#067531": "verde",
+            "#e6d413": "amarillo"
         },
         "category": "Accesorios"
     },
