@@ -9,7 +9,7 @@ const json = (path) =>{
     });
 }
 const category = (dataJsonCategory) =>{
-    const category = sessionStorage.getItem('category')
+    const category = sessionStorage.getItem('categoryTauca')
     if(category){
         return new Promise(resolve => {
             const dataCategory = dataJsonCategory.filter(cat => cat.nameEs === category)
@@ -29,9 +29,8 @@ const estructureProducts = (dataProducts) =>{
     return new Promise(resolve => {
         let tableProducts = ""
         for (const products of dataProducts) {
-            console.log(products)
             tableProducts = `${tableProducts}
-            <div class="product">
+            <div class="product" onclick="redirectProduct(${products.id})">
                 <img src=${products.thumbnail[1]} alt="">
                 <p>${products.name}</p>
                 <p>$${products.price}</p>
@@ -45,7 +44,7 @@ const innerHTML = (dataCategory, tableProducts) =>{
     const div = document.querySelector("#body-products");
     //${dataCategory.nameEs.toLowerCase()}
     div.innerHTML = `
-        <div id="banner-category" style="background-image: url('../media/img/categories/banners/accesorios.jpg');">
+        <div id="banner-category" style="background-image: url('../media/img/categories/banners/${dataCategory.nameEs.toLowerCase()}.jpeg');">
             <p>${dataCategory.nameEs}</p>
             <p id="en">${dataCategory.name}</p>
         </div>
