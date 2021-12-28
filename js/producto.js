@@ -1,4 +1,4 @@
-const json2 = (path) =>{
+const jsonProduct = (path) =>{
     const idProduct = sessionStorage.getItem('idProductTauca')
     return new Promise(resolve => {
         fetch(path)
@@ -14,7 +14,7 @@ const changeImage = (color) =>{
     const urlImage = dataProduct.thumbnail[String(color)]
     $('#img-product').fadeOut(0, function(){
         $('#img-product').remove()
-        $('#product').prepend(`<img id="img-product" src="${urlImage}" alt="">`)
+        $('#img-content').prepend(`<img id="img-product" src="${urlImage}" alt="">`)
     })
 }
 const getColors = (dataProduct) =>{
@@ -33,18 +33,18 @@ const getColors = (dataProduct) =>{
         }
     })
 }
-const innerHTML2 = (dataProduct, tableColors) =>{
+const innerHTMLProduct = (dataProduct, tableColors) =>{
     console.log(dataProduct)
     const div = document.querySelector("#body-product");
     //${dataCategory.nameEs.toLowerCase()}
     div.innerHTML = `
         <div id="product">
-        <div img-content>
-            <img id="img-product" src="${dataProduct.thumbnail[1]}" alt="">
-        </div>
-        <div id="colors">
-            ${tableColors}
-        </div>
+            <div id="img-content">
+                <img id="img-product" src="${dataProduct.thumbnail[1]}" alt="">
+            </div>
+            <div id="colors">
+                ${tableColors}
+            </div>
         </div>
         <div id="description">
             <p>${dataProduct.name}</p>
@@ -54,11 +54,11 @@ const innerHTML2 = (dataProduct, tableColors) =>{
     `
 }
 
-const pathProducts2 = '../js/json/products.json'
+const pathProductsProduct = '../js/json/products.json'
 let dataProduct = []
 async function main(){
-    dataProduct = await json2(pathProducts2)
+    dataProduct = await jsonProduct(pathProductsProduct)
     tableColors = await getColors(dataProduct)
-    await innerHTML2(dataProduct, tableColors)
+    await innerHTMLProduct(dataProduct, tableColors)
 }
 main()
