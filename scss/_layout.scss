@@ -329,23 +329,35 @@ footer{
 
     .contacto__redes{
         display: flex;
-        padding: 4% 1% 10% ;
-        margin: 2% 4%;
-        justify-content:center ;
-        img{
-            width: 10%;
-            margin-right: 3%;
-        }
+        padding: 4% 1% 10%;
+        justify-content:center;
     }
 
     .contenedor__redes{
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items:center;
+        justify-content: space-around;
+        a{
+            outline: none;
+            text-decoration: none;
+            margin: 2%;
+        }
+        h2{
+            font-size: 1.2rem;
+            margin-right: 15%;
+
+        }
+        img{
+            width: 4vw;
+
+        }
+      
+
 
 
     }
 }
+
 
 .sobreNos{
     background-color: $blackTauca;

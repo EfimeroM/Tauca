@@ -1,0 +1,20 @@
+@media (max-width: 992px) {
+                            
+    .contenedor__redes{
+        flex-direction: column;
+        justify-content: center;
+        a{
+            margin: 12%;
+        }
+        h2{
+            margin: 8%;
+        }
+
+    }
+
+    .sobreNos__contenido{
+        flex-direction: column;
+        justify-content: center;
+
+    }
+}
