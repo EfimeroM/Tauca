@@ -323,3 +323,72 @@ footer {
       border-radius: 5px; }
       #body-product #description #buttonComprar:hover {
         cursor: pointer; }
+
+.pregFrecuentes {
+  background-color: #1D1D1B;
+  color: white;
+  font-weight: 300; }
+  .pregFrecuentes h1 {
+    background-color: #6F2281;
+    font-size: 2.5rem;
+    margin: 4% 8%;
+    padding: 1%;
+    text-align: center; }
+  .pregFrecuentes .secPreg {
+    margin: 3%;
+    padding: 1% 8%;
+    color: white; }
+    .pregFrecuentes .secPreg h2 {
+      text-decoration: underline;
+      padding-bottom: 3%; }
+
+.contacto {
+  background-color: #1D1D1B;
+  color: white;
+  font-weight: 300; }
+  .contacto h1 {
+    background-color: #E20A13;
+    font-size: 2.5rem;
+    margin: 4% 8%;
+    padding: 1%;
+    text-align: center; }
+  .contacto h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-bottom: 10%; }
+  .contacto .contacto__redes {
+    display: flex;
+    padding: 4% 1% 10%;
+    margin: 2% 4%;
+    justify-content: center; }
+    .contacto .contacto__redes img {
+      width: 10%;
+      margin-right: 3%; }
+  .contacto .contenedor__redes {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.sobreNos {
+  background-color: #1D1D1B;
+  color: white;
+  font-weight: 300; }
+  .sobreNos h1 {
+    background-color: #088036;
+    font-size: 2.5rem;
+    margin: 4% 8%;
+    padding: 1%;
+    text-align: center; }
+  .sobreNos .sobreNos__contenido {
+    display: flex;
+    align-items: center;
+    margin: 2% 10%; }
+    .sobreNos .sobreNos__contenido img {
+      width: 30vw;
+      padding: 1%; }
+    .sobreNos .sobreNos__contenido p {
+      font-size: .9rem;
+      padding: 5%;
+      line-height: 1.25rem; }
