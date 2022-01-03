@@ -5,6 +5,12 @@
   font-family: 'Comfortaa', cursive;
   box-sizing: border-box; }
 
+#menu-container {
+  display: none; }
+
+#menu {
+  display: block; }
+
 body {
   display: flex;
   flex-direction: column;
@@ -423,3 +429,150 @@ footer {
   .sobreNos__contenido {
     flex-direction: column;
     justify-content: center; } }
+
+@media (max-width: 900px) {
+  /*menu*/
+  #menu {
+    display: none; }
+  #menu-container {
+    display: block;
+    position: absolute;
+    z-index: 4;
+    left: 0; }
+    #menu-container #menu-slide {
+      float: left;
+      max-width: 0px;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+      transition: 200ms; }
+      #menu-container #menu-slide nav {
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        background: white;
+        height: 100%;
+        width: 300px;
+        border: 1px solid rgba(0, 0, 0, 0.109);
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px; }
+        #menu-container #menu-slide nav .toggle-menu {
+          width: 100%;
+          height: 3vh;
+          margin: 3vh 0; }
+          #menu-container #menu-slide nav .toggle-menu img {
+            height: 100%;
+            float: right;
+            margin-right: 2vh; }
+        #menu-container #menu-slide nav ul #buscar {
+          margin: 3vh 0;
+          width: 100%;
+          display: flex; }
+          #menu-container #menu-slide nav ul #buscar #text {
+            width: 80%;
+            font-size: 2.7vh;
+            padding: 0 0 0 2.5vh;
+            border: none;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            background-color: #ebebeb; }
+          #menu-container #menu-slide nav ul #buscar #submit {
+            width: 20%;
+            padding: 2vh;
+            background-color: #ebebeb;
+            border-top-right-radius: 30px;
+            border-bottom-right-radius: 30px; }
+        #menu-container #menu-slide nav ul li {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          color: #fff;
+          font-size: 18px;
+          text-decoration: none;
+          font-weight: 600;
+          position: relative;
+          transform: translateX(-30px);
+          opacity: 0;
+          transition: all 300ms; }
+          #menu-container #menu-slide nav ul li:before {
+            content: '';
+            position: absolute;
+            left: -20px;
+            width: 0px;
+            height: 100%;
+            background: #009de3;
+            transition: all 300ms; }
+          #menu-container #menu-slide nav ul li:hover:before {
+            width: 6px; }
+          #menu-container #menu-slide nav ul li a {
+            width: 100%;
+            padding: 6vh 0;
+            text-decoration: none; }
+          #menu-container #menu-slide nav ul li #azul {
+            color: #3157A3; }
+          #menu-container #menu-slide nav ul li #violeta {
+            color: #6F2281; }
+          #menu-container #menu-slide nav ul li #rojo {
+            color: #E20A13; }
+          #menu-container #menu-slide nav ul li #verde {
+            color: #088036; }
+          #menu-container #menu-slide nav ul li .options-menu {
+            padding: 2vh 0;
+            min-width: 500px;
+            padding: 4vh 0; }
+    #menu-container .toggle {
+      position: absolute;
+      z-index: 1;
+      display: inline-block;
+      color: #fff;
+      cursor: pointer;
+      transition: opacity 300ms;
+      width: 8vh;
+      height: 8vh;
+      top: 3vh;
+      left: 3vh; }
+      #menu-container .toggle img {
+        width: 100%; }
+    #menu-container .toggle:hover {
+      opacity: 0.8; }
+    #menu-container .toggle-check:checked ~ .toggle {
+      display: none; }
+    #menu-container .toggle-check:checked ~ #menu-slide {
+      max-width: 300px; }
+    #menu-container .toggle-check:checked ~ #menu-slide ul li {
+      opacity: 1;
+      transition-delay: 200ms;
+      transform: translateX(0); }
+  header {
+    height: 15vh; }
+    header #logo-tauca {
+      position: absolute;
+      left: auto;
+      right: 0; }
+      header #logo-tauca img {
+        height: 15vh;
+        width: 15vh; } }
+
+@media (max-width: 650px) {
+  #body-index #container-comprar {
+    display: none; }
+  footer {
+    min-height: 17vh; }
+    footer h4 {
+      padding: 1vh 0; }
+    footer h5 {
+      padding: 1vh 0; } }
+
+@media (max-width: 415px) {
+  header {
+    height: 13vh; }
+    header #logo-tauca img {
+      height: 13vh;
+      width: 13vh; }
+  #menu-container .toggle {
+    width: 5.5vh;
+    height: 5.5vh;
+    top: 4vh;
+    left: 4vh; }
+    #menu-container .toggle img {
+      width: 100%; } }
