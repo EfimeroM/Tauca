@@ -11,16 +11,33 @@
 <body>
     <header>
         <a id="logo-tauca" href="../index.html"><img src="../media/icons/tauca/logo-light.jpg" alt="icono logo light tauca"></a>
-        <nav>
+        <nav id="menu">
             <ul>
                 <li><a href="categorias.html">Productos</a></li>
                 <li><a href="preguntas.html">Preguntas frecuentes</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
                 <li><a href="nosotras.html">Sobre nosotras</a></li>
             </ul>
-
         </nav>
     </header>
+    <div id="menu-container">
+        <input type="checkbox" class="toggle-check" id="toggle" hidden>
+        <label class="toggle" for="toggle"><img src="../media/icons/menu/menu.png" alt=""></label>
+        <div id="menu-slide">
+            <nav>
+                <label class="toggle-menu" for="toggle"><img src="../media/icons/menu/x.png" alt=""></label>
+                <ul>
+                    <div id="buscar">
+                        <input id="text" type="text" placeholder="Buscar producto"><img id="submit" src="../media/icons/menu/lupa.png" alt="">
+                    </div>
+                    <li><a id="azul" class="options-menu" href="categorias.html">Productos</a></li>
+                    <li><a id="violeta" class="options-menu" href="preguntas.html">Preguntas frecuentes</a></li>
+                    <li><a id="rojo" class="options-menu" href="contacto.html">Contacto</a></li>
+                    <li><a id="verde" class="options-menu" href="nosotras.html">Sobre nosotras</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 
     <main class="sobreNos">
         <h1>Sobre nosotras</h1>
