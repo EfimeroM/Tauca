@@ -113,6 +113,7 @@ footer{
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-between;
+    }
         #gorras{
             flex-basis: 59.6%;
             background: url('../media/img/categories/gorras.jpg') no-repeat center top;
@@ -143,12 +144,12 @@ footer{
                 @include displayCategories;
             }
         }
-    }
     #third-column{
         flex-basis: 33%;
         display: flex;
         flex-flow: column nowrap;
         justify-content: space-between;
+    }
         #medias{
             flex-basis: 49.6%;
             background: url('../media/img/categories/medias.jpg') no-repeat center top;
@@ -179,7 +180,6 @@ footer{
                 @include displayCategories;
             }
         }
-    }
 }
 #body-products{
     padding-top: 8vh;

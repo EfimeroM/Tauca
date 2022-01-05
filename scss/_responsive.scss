@@ -49,6 +49,19 @@
 }
 @media (max-width: 900px){
     $heigth-header: $heigth-header - 5vh;
+    //cabezera menu
+    header{
+        height: $heigth-header;
+        #logo-tauca{
+            position: absolute;
+            left: auto;
+            right: 0;
+            img{
+                height: $heigth-header;
+                width: $heigth-header;
+            }
+        }
+    }
     /*menu*/
     #menu{
         display: none;
@@ -171,36 +184,55 @@
             img{
                 width: 100%;
             }
+            &:hover{
+                opacity: 0.8;
+            }
         }
-        .toggle:hover{
-            opacity: 0.8;
-        }
-        .toggle-check:checked ~ .toggle{
-            display: none;
-        }
-        .toggle-check:checked ~ #menu-slide{
-            max-width: 300px;
-        }
-        .toggle-check:checked ~ #menu-slide ul li{
-            opacity: 1;
-            transition-delay: 200ms;
-            transform: translateX(0);
+        .toggle-check{
+            &:checked ~ .toggle{
+                display: none;
+            }
+            &:checked ~ #menu-slide{
+                max-width: 300px;
+            }
+            &:checked ~ #menu-slide ul li{
+                opacity: 1;
+                transition-delay: 200ms;
+                transform: translateX(0);
+            }
         }
     }
-    header{
-        height: $heigth-header;
-        #logo-tauca{
-            position: absolute;
-            left: auto;
-            right: 0;
-            img{
-                height: $heigth-header;
-                width: $heigth-header;
+    #body-categories{
+        #marroquineria{
+            #marroquineria-text{
+                @include effectOpacity;
+            }
+        }
+        #gorras{
+            #gorras-text{
+                @include effectOpacity;
+            }
+        }
+        #cinturones{
+            #cinturones-text{
+                @include effectOpacity;
+            }
+        }
+        #medias{
+            #medias-text{
+                @include effectOpacity;
+            }
+        }
+        #accesorios{
+            #accesorios-text{
+                @include effectOpacity;
             }
         }
     }
 }
 @media (max-width: 650px){
+    
+
     $heigth-footer: $heigth-footer + 2vh;
     #body-index{
         #container-comprar{
@@ -214,6 +246,145 @@
         }
         h5{
             padding: 1vh 0;
+        }
+    }
+}
+@media (max-width: 600px){
+    //categorias
+        #grid-left{
+            grid-area: gridleft;
+        }
+        #grid-rigth{
+            grid-area: gridrigth;
+        }
+        #grid-bottom{
+            grid-area: gridbottom;
+        }
+    #body-categories{
+        display: grid;
+        grid-template-areas: 
+        "gridleft gridrigth"
+        "gridbottom gridbottom"
+        ;
+        grid-template-rows: 80vh 33vh;
+        grid-template-columns: 50% 50%;
+        border-left: 5px solid $blackTauca;
+        border-right: 5px solid $blackTauca;
+        #grid-left{
+            #marroquineria-m{
+                background: url('../media/img/categories/marroquineria.jpg') no-repeat center;
+                @include bgcover;
+                height: 60%;
+                border: 5px solid $blackTauca;
+                #marroquineria-text-m{
+                    background-color: #e20a116b;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    p{
+                        text-align: center;
+                        font-size: 6vw;
+                        padding: 2vh 0;
+                    }
+                    .letter-category-m{
+                        font-size: 4vw;                
+                    }
+                }
+            }
+            #cinturones-m{
+                background: url('../media/img/categories/cinturones.jpg') no-repeat center;
+                @include bgcover;
+                height: 40%;
+                border: 5px solid $blackTauca;
+                #cinturones-text-m{
+                    background-color: #e24e0a80;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    p{
+                        text-align: center;
+                        font-size: 6vw;
+                        padding: 2vh 0;
+                    }
+                    .letter-category-m{
+                        font-size: 4vw;                
+                    }
+                }
+            }
+        }
+        #grid-rigth{
+            #gorras-m{
+                background: url('../media/img/categories/gorras.jpg') no-repeat center;
+                @include bgcover;
+                height: 40%;
+                border: 5px solid $blackTauca;
+                #gorras-text-m{
+                    background-color: #cce20a6b;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    p{
+                        text-align: center;
+                        font-size: 6vw;
+                        padding: 2vh 0;
+                    }
+                    .letter-category-m{
+                        font-size: 4vw;                
+                    }
+                }
+            }
+            #medias-m{
+                background: url('../media/img/categories/medias.jpg') no-repeat center;
+                @include bgcover;
+                height: 60%;
+                border: 5px solid $blackTauca;
+                #medias-text-m{
+                    background-color: #0a20e26b;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    p{
+                        text-align: center;
+                        font-size: 6vw;
+                        padding: 2vh 0;
+                    }
+                    .letter-category-m{
+                        font-size: 4vw;                
+                    }
+                }
+            }
+        }
+        #grid-bottom{
+            #accesorios-m{
+                background: url('../media/img/categories/accesorios.jpg') no-repeat center;
+                @include bgcover;
+                height: 100%;
+                border: 5px solid $blackTauca;
+                #accesorios-text-m{
+                    background-color: #b70ae26b;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    p{
+                        text-align: center;
+                        font-size: 6vw;
+                        padding: 2vh 0;
+                    }
+                    .letter-category-m{
+                        font-size: 4vw;                
+                    }
+                }
+            }
         }
     }
 }
