@@ -34,24 +34,41 @@ const getColors = (dataProduct) =>{
     })
 }
 const innerHTMLProduct = (dataProduct, tableColors) =>{
-    console.log(dataProduct)
-    const div = document.querySelector("#body-product");
-    //${dataCategory.nameEs.toLowerCase()}
-    div.innerHTML = `
-        <div id="product">
-            <div id="img-content">
-                <img id="img-product" src="${dataProduct.thumbnail[1]}" alt="">
+    if(screen.width > 800){
+        $('#body-product').append(`
+            <div id="product">
+                <div id="img-content">
+                    <img id="img-product" src="${dataProduct.thumbnail[1]}" alt="">
+                </div>
+                <div id="colors">
+                    ${tableColors}
+                </div>
             </div>
-            <div id="colors">
-                ${tableColors}
+            <div id="description">
+                <p>${dataProduct.name}</p>
+                <p>$${dataProduct.price}</p>
+                <div id="buttonComprar">!Comprar!</div>
             </div>
-        </div>
-        <div id="description">
-            <p>${dataProduct.name}</p>
-            <p>$${dataProduct.price}</p>
-            <div id="buttonComprar">!Comprar!</div>
-        </div>
-    `
+        `)
+    }else if(screen.width <= 800){
+        $('#body-product').append(`
+            <div id="description">
+                <p>${dataProduct.name}</p>
+                <p>$${dataProduct.price}</p>
+            </div>
+            <div id="product">
+                <div id="img-content">
+                    <img id="img-product" src="${dataProduct.thumbnail[1]}" alt="">
+                </div>
+                <div id="colors">
+                    ${tableColors}
+                </div>
+            </div>
+            <div id="button-comprar">
+                <div id="buttonComprar">!Comprar!</div>
+            </div>
+        `)
+    }
 }
 
 const pathProductsProduct = '../js/json/products.json'
