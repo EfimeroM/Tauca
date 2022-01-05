@@ -583,9 +583,36 @@ footer {
     flex-direction: column;
     justify-content: center; } }
 
+@media (max-width: 800px) {
+  #body-product {
+    flex-direction: column; }
+    #body-product #button-comprar {
+      flex-basis: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white; }
+      #body-product #button-comprar p {
+        font-size: 8vh;
+        padding: 2vh 0; }
+      #body-product #button-comprar #buttonComprar {
+        background-color: #E20A13;
+        padding: 2vh 3vw;
+        margin: 2vh 0;
+        border-radius: 5px; }
+        #body-product #button-comprar #buttonComprar:hover {
+          cursor: pointer; } }
+
 @media (max-width: 650px) {
   #body-index #container-comprar {
     display: none; }
+  #body-products {
+    padding-top: 4vh;
+    background-color: #1D1D1B; }
+    #body-products #banner-category {
+      height: 25vh;
+      justify-content: flex-end; }
   footer {
     min-height: 17vh; }
     footer h4 {
@@ -713,9 +740,48 @@ footer {
         #body-categories #grid-bottom #accesorios-m #accesorios-text-m .letter-category-m {
           font-size: 4vw; } }
 
-@media (max-width: 450px) {
+@media (max-width: 526px) {
   #body-index {
-    min-height: 80vh; } }
+    min-height: 80vh; }
+  #body-products #banner-category p {
+    font-size: 5vh;
+    text-transform: uppercase; }
+  #body-products #banner-category #en {
+    font-size: 4vh;
+    text-transform: none; }
+  #body-products #box-products {
+    padding: 0 5vw; }
+    #body-products #box-products .product {
+      flex-basis: 43%; }
+  #body-product {
+    padding: 2vh 0; }
+    #body-product #product #img-content {
+      width: 300px;
+      height: 300px; }
+      #body-product #product #img-content img {
+        width: 100%; }
+    #body-product #product #colors {
+      display: flex;
+      justify-content: space-between;
+      padding: 4vh 0; }
+      #body-product #product #colors .square {
+        width: 30px;
+        height: 30px;
+        border: 1px solid white;
+        margin: 0 3vw; }
+        #body-product #product #colors .square:hover {
+          background-color: red;
+          cursor: pointer; }
+    #body-product #description p {
+      font-size: 5vh;
+      padding: 1vh 0; }
+    #body-product #button-comprar p {
+      font-size: 8vh;
+      padding: 2vh 0; }
+    #body-product #button-comprar #buttonComprar {
+      margin: 3vh 0; }
+      #body-product #button-comprar #buttonComprar:hover {
+        cursor: pointer; } }
 
 @media (max-width: 415px) {
   header {
