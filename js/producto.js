@@ -1,4 +1,6 @@
 const jsonProduct = (path) =>{
+    const prodId = getParameterByName('id');
+    console.log(prodId)
     const idProduct = sessionStorage.getItem('idProductTauca')
     return new Promise(resolve => {
         fetch(path)
@@ -10,6 +12,13 @@ const jsonProduct = (path) =>{
             .catch(err => console.log(err))
     });
 }
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+    results = regex.exec(location.search);
+    return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
 const changeImage = (color) =>{
     const urlImage = dataProduct.thumbnail[String(color)]
     $('#img-product').fadeOut(0, function(){

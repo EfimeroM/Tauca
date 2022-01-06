@@ -635,7 +635,7 @@ footer {
     border-left: 5px solid #1D1D1B;
     border-right: 5px solid #1D1D1B; }
     #body-categories #grid-left #marroquineria-m {
-      background: url("../media/img/categories/marroquineria.jpg") no-repeat center;
+      background: url("../media/img/categories/mobile/marroquineria.jpg") no-repeat center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -656,7 +656,7 @@ footer {
         #body-categories #grid-left #marroquineria-m #marroquineria-text-m .letter-category-m {
           font-size: 4vw; }
     #body-categories #grid-left #cinturones-m {
-      background: url("../media/img/categories/cinturones.jpg") no-repeat center;
+      background: url("../media/img/categories/mobile/cinturones.jpg") no-repeat center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -677,7 +677,7 @@ footer {
         #body-categories #grid-left #cinturones-m #cinturones-text-m .letter-category-m {
           font-size: 4vw; }
     #body-categories #grid-rigth #gorras-m {
-      background: url("../media/img/categories/gorras.jpg") no-repeat center;
+      background: url("../media/img/categories/mobile/gorras.jpg") no-repeat center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -698,7 +698,7 @@ footer {
         #body-categories #grid-rigth #gorras-m #gorras-text-m .letter-category-m {
           font-size: 4vw; }
     #body-categories #grid-rigth #medias-m {
-      background: url("../media/img/categories/medias.jpg") no-repeat center;
+      background: url("../media/img/categories/mobile/medias.jpg") no-repeat center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -719,7 +719,7 @@ footer {
         #body-categories #grid-rigth #medias-m #medias-text-m .letter-category-m {
           font-size: 4vw; }
     #body-categories #grid-bottom #accesorios-m {
-      background: url("../media/img/categories/accesorios.jpg") no-repeat center;
+      background: url("../media/img/categories/mobile/accesorios.jpg") no-repeat center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -742,7 +742,12 @@ footer {
 
 @media (max-width: 526px) {
   #body-index {
-    min-height: 80vh; }
+    background: url("../media/img/banners/mobile/index.jpg") no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 70vh; }
   #body-products #banner-category p {
     font-size: 5vh;
     text-transform: uppercase; }
@@ -796,3 +801,13 @@ footer {
     left: 4vh; }
     #menu-container .toggle img {
       width: 100%; } }
+
+@media (max-width: 330px) {
+  #body-products #box-products {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 2vh 0; } }
+
+@media (max-width: 289px) {
+  #body-products #box-products .product {
+    flex-basis: 100%; } }
