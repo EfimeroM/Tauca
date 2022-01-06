@@ -304,7 +304,7 @@
         border-right: 5px solid $blackTauca;
         #grid-left{
             #marroquineria-m{
-                background: url('../media/img/categories/marroquineria.jpg') no-repeat center;
+                background: url('../media/img/categories/mobile/marroquineria.jpg') no-repeat center;
                 @include bgcover;
                 height: 60%;
                 border: 5px solid $blackTauca;
@@ -326,7 +326,7 @@
                 }
             }
             #cinturones-m{
-                background: url('../media/img/categories/cinturones.jpg') no-repeat center;
+                background: url('../media/img/categories/mobile/cinturones.jpg') no-repeat center;
                 @include bgcover;
                 height: 40%;
                 border: 5px solid $blackTauca;
@@ -350,7 +350,7 @@
         }
         #grid-rigth{
             #gorras-m{
-                background: url('../media/img/categories/gorras.jpg') no-repeat center;
+                background: url('../media/img/categories/mobile/gorras.jpg') no-repeat center;
                 @include bgcover;
                 height: 40%;
                 border: 5px solid $blackTauca;
@@ -372,7 +372,7 @@
                 }
             }
             #medias-m{
-                background: url('../media/img/categories/medias.jpg') no-repeat center;
+                background: url('../media/img/categories/mobile/medias.jpg') no-repeat center;
                 @include bgcover;
                 height: 60%;
                 border: 5px solid $blackTauca;
@@ -396,7 +396,7 @@
         }
         #grid-bottom{
             #accesorios-m{
-                background: url('../media/img/categories/accesorios.jpg') no-repeat center;
+                background: url('../media/img/categories/mobile/accesorios.jpg') no-repeat center;
                 @include bgcover;
                 height: 100%;
                 border: 5px solid $blackTauca;
@@ -422,7 +422,9 @@
 }
 @media (max-width: 526px){
     #body-index{
-        min-height:80vh;
+        background: url('../media/img/banners/mobile/index.jpg') no-repeat center top;
+        @include bgcover;
+        min-height:70vh;
     }
     #body-products{
         #banner-category{
@@ -507,6 +509,24 @@
             left: 4vh;
             img{
                 width: 100%;
+            }
+        }
+    }
+}
+@media (max-width: 330px){
+    #body-products{
+        #box-products{
+            display: flex;
+            flex-flow: row wrap;
+            padding: 2vh 0;
+        }
+    }
+}
+@media (max-width: 289px){
+    #body-products{
+        #box-products{
+            .product{
+                flex-basis: 100%;
             }
         }
     }
