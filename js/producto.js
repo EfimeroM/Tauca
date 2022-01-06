@@ -1,12 +1,10 @@
 const jsonProduct = (path) =>{
     const prodId = getParameterByName('id');
-    console.log(prodId)
-    const idProduct = sessionStorage.getItem('idProductTauca')
     return new Promise(resolve => {
         fetch(path)
             .then(response => response.json())
             .then(data =>{
-                const dataProduct = data.filter(producto => producto.id === Number(idProduct))
+                const dataProduct = data.filter(producto => producto.id === Number(prodId))
                 resolve(dataProduct[0])
             })
             .catch(err => console.log(err))

@@ -3,6 +3,5 @@ const redirectProducts = (category) =>{
     location.href="../secciones/productos.html";
 }
 const redirectProduct = (idProduct) =>{
-    sessionStorage.setItem('idProductTauca', idProduct)
     location.href="../secciones/producto?id="+idProduct;
 }
