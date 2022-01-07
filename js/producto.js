@@ -82,7 +82,8 @@ const innerHTMLProduct = (dataProduct, tableColors) =>{
     }
 }
 const comprar = (nameProduct) =>{
-    window.location.assign("https://api.whatsapp.com/send?phone=5491153264616&text=Hola!%20Quisiera%20comprar%20el%20producto:%20"+nameProduct+"%20&");
+    let URLactual = window.location.href;
+    window.location.assign("https://api.whatsapp.com/send?phone=5491153264616&text=Hola!%20Quisiera%20comprar%20el%20producto:%20"+nameProduct+"%20"+URLactual+"%20&");
 }
 const pathProductsProduct = '../js/json/products.json'
 let dataProduct = []
