@@ -76,7 +76,7 @@ const innerHTMLProduct = (dataProduct, tableColors) =>{
                 </div>
             </div>
             <div id="button-comprar">
-                <div onclick="comprar(${dataProduct.name})" id="buttonComprar">!Comprar!</div>
+                <div onclick="comprar('${dataProduct.name}')" id="buttonComprar">!Comprar!</div>
             </div>
         `)
     }
