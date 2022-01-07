@@ -76,7 +76,7 @@ const innerHTMLProduct = (dataProduct, tableColors) =>{
                 </div>
             </div>
             <div id="button-comprar">
-                <div id="buttonComprar">!Comprar!</div>
+                <a href="https://api.whatsapp.com/send?phone=5491153264616&text=Hola!%20Quisiera%20comprar%20el%20producto:%20&${dataProduct.name}" id="buttonComprar">!Comprar!</a>
             </div>
         `)
     }
