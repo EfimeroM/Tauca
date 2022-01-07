@@ -76,12 +76,14 @@ const innerHTMLProduct = (dataProduct, tableColors) =>{
                 </div>
             </div>
             <div id="button-comprar">
-                <a href="https://api.whatsapp.com/send?phone=5491153264616&text=Hola!%20Quisiera%20comprar%20el%20producto:%20&${dataProduct.name}" id="buttonComprar">!Comprar!</a>
+                <div onclick="comprar(${dataProduct.name})" id="buttonComprar">!Comprar!</div>
             </div>
         `)
     }
 }
-
+const comprar = (nameProduct) =>{
+    window.location.assign(`https://api.whatsapp.com/send?phone=5491153264616&text=Hola!%20Quisiera%20comprar%20el%20producto:%20&${nameProduct}`);
+}
 const pathProductsProduct = '../js/json/products.json'
 let dataProduct = []
 async function main(){
