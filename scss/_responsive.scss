@@ -271,6 +271,44 @@
             justify-content: flex-end;
         }
     }
+    .pregFrecuentes{
+        h1{
+            margin: 2vh 0;
+            padding: 2vh 0;
+        }
+        .secPreg{
+            margin: 4vh 2vh;
+            padding: 0;
+        }
+    }
+    .contacto{
+        h1{
+            margin: 2vh 0;
+            padding: 2vh 0;
+        }
+        h3{
+            padding: 0;
+        }
+        .contenedor__redes{
+            img{
+                width: 10vw;
+            }
+            h2{
+                margin-right: 8%;
+            }
+        }
+    }
+    .sobreNos{
+        h1{
+            margin: 2vh 0;
+            padding: 2vh 0;
+        }
+        .sobreNos__contenido{
+            img{
+                width: 40vw;
+            }
+        }
+    }
     footer{
         min-height: $heigth-footer;
         h4{
@@ -509,6 +547,20 @@
             left: 4vh;
             img{
                 width: 100%;
+            }
+        }
+    }
+    #body-categories{
+        #grid-left{
+            #marroquineria-m{
+                #marroquineria-text-m{
+                    p{
+                        font-size: 5.2vw;
+                    }
+                    .letter-category-m{
+                        font-size: 4vw;                
+                    }
+                }
             }
         }
     }

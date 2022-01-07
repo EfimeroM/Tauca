@@ -613,6 +613,26 @@ footer {
     #body-products #banner-category {
       height: 25vh;
       justify-content: flex-end; }
+  .pregFrecuentes h1 {
+    margin: 2vh 0;
+    padding: 2vh 0; }
+  .pregFrecuentes .secPreg {
+    margin: 4vh 2vh;
+    padding: 0; }
+  .contacto h1 {
+    margin: 2vh 0;
+    padding: 2vh 0; }
+  .contacto h3 {
+    padding: 0; }
+  .contacto .contenedor__redes img {
+    width: 10vw; }
+  .contacto .contenedor__redes h2 {
+    margin-right: 8%; }
+  .sobreNos h1 {
+    margin: 2vh 0;
+    padding: 2vh 0; }
+  .sobreNos .sobreNos__contenido img {
+    width: 40vw; }
   footer {
     min-height: 17vh; }
     footer h4 {
@@ -800,7 +820,11 @@ footer {
     top: 4vh;
     left: 4vh; }
     #menu-container .toggle img {
-      width: 100%; } }
+      width: 100%; }
+  #body-categories #grid-left #marroquineria-m #marroquineria-text-m p {
+    font-size: 5.2vw; }
+  #body-categories #grid-left #marroquineria-m #marroquineria-text-m .letter-category-m {
+    font-size: 4vw; } }
 
 @media (max-width: 330px) {
   #body-products #box-products {
