@@ -4,5 +4,7 @@ node_modules
 #ignora archivos package.json
 package-lock.json
 package.json
+#build
+build_
 #
 .vscode
