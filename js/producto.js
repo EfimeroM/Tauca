@@ -58,7 +58,7 @@ const innerHTMLProduct = (dataProduct, tableColors) =>{
             <div id="description">
                 <p>${dataProduct.name}</p>
                 <p>$${dataProduct.price}</p>
-                <div id="buttonComprar">!Comprar!</div>
+                <div onclick="comprar('${dataProduct.name}')" id="buttonComprar">!Comprar!</div>
             </div>
         `)
     }else if(screen.width <= 800){
